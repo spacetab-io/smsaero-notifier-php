@@ -11,7 +11,7 @@ SMSAERO_DSN=smsaero://EMAIL:API_KEY@default?from=FROM&channel=CHANNEL
 ```
 
 where:
-- `EMAIL` account email 
+- `EMAIL` account email (must be urlencoded, example: test%40example.com)
 - `API_KEY` is a secret key from [settings page](https://smsaero.ru/cabinet/settings/apikey/) 
 - `FROM` is your sender (NB: text identity, not a phone number)
 - `CHANNEL` channel type, default: INTERNATIONAL
