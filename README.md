@@ -3,6 +3,16 @@ SmsAero Notifier
 
 Provides [SmsAero](https://smsaero.ru/) integration for Symfony Notifier.
 
+notifier.yaml
+-----------
+
+```
+framework:
+    notifier:
+        texter_transports:
+            smsaero: '%env(SMSAERO_DSN)%'
+```
+
 DSN example
 -----------
 
